@@ -1,0 +1,47 @@
+{
+  "name": "nextjs14-anxelli_dev",
+  "version": "0.1.0",
+  "description": "NextJS 14 base configuration with TailwindCSS, Dark Mode, Framer Motion, Vercel Analytics, Google Tag Manager, and more... by @anxelli_dev",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anxelli/nextjs14-anxelli_dev.git"
+  },
+  "keywords": [
+    "nextsjs",
+    "tailwindcss",
+    "darkmode",
+    "framer-motion",
+    "vercel-analytics",
+    "google-tag-manager"
+  ],
+  "author": {
+    "name": "Angel Amaro",
+    "email": "angel_dev@arte-digital.mx",
+    "company": "arteDigitalMX",
+    "url": "https://arte-digital.mx"
+  },
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@next/third-parties": "^14.0.3",
+    "@vercel/analytics": "^1.1.1",
+    "framer-motion": "^10.16.14",
+    "next": "14.0.3",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  }
+}
